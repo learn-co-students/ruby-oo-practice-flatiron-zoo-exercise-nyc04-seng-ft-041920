@@ -5,10 +5,10 @@ Today, we are being asked to create two domain models - a `Zoo` model and an `An
 
 Here are some questions to consider:
 
-* What are your models?
-* What does your domain look like?
-* What are the relationships between your models? 
-* Which model should know about the other in its initialization?
+- What are your models?
+- What does your domain look like?
+- What are the relationships between your models?
+- Which model should know about the other in its initialization?
 
 ## Here are some of our deliverables:
 
@@ -17,6 +17,7 @@ _Keep in mind that in order to properly build out the relationships between an `
 ![Flatiron Zoo](https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-relationships/flatiron-zoo-exercise/Image_124_ZooGraphic.png)
 
 ### Zoo Class
+
 - A `zoo` should be initialized with a name and a location, which should both be passed as strings.
 - `Zoo#location` should return the location of the zoo instance.
 - `Zoo#name` should return the name of the zoo instance.
@@ -28,6 +29,7 @@ _Keep in mind that in order to properly build out the relationships between an `
 - `Zoo.find_by_location` should take in a location as an argument and return an array of all the zoos within that location.
 
 ### Animal Class
+
 - An `animal` should be instantiated with the species (e.g. "Cat", "Dog", "Rat"), a numerical weight and a nickname. Keep in mind that the animal's species and nickname should not be able to change, but its weight can.
 - `Animal#nickname` should return the nickname of the animal.
 - `Animal#weight` should return the weight of the animal.
